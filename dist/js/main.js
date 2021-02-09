@@ -89,3 +89,17 @@ window.addEventListener("scroll", function () {
     // topbar.style.display = "block";
   }
 });
+
+// Scroll to TOP
+var btn = $(".scrollup");
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 500) {
+    btn.addClass("show");
+  } else {
+    btn.removeClass("show");
+  }
+});
+btn.on("click", function (e) {
+  e.preventDefault();
+  $("html, body").animate({ scrollTop: 0 }, "500");
+});

@@ -767,6 +767,33 @@ footer {
 
 // --------Footer----------------//
 
+/* Scroll up */
+.scrollup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: #000;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: -10px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s, bottom 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10;
+  cursor: pointer;
+  // box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
+}
+.scrollup.show {
+  bottom: 30px;
+  opacity: 1;
+  visibility: visible;
+}
+// Scroll Up
+
 // --------------------- Contact Us ---------------------
 @import "_contactUs";
 // --------------------- Contact Us ---------------------
