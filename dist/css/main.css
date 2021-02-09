@@ -176,7 +176,7 @@ ul {
             color: #fff; }
 
 .section-a {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/dist/images/background/HYP_KEYART_S2_desktop__1_.webp") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/images/background/HYP_KEYART_S2_desktop__1_.webp") no-repeat center center;
   background-position-y: 0px;
   height: 90vh; }
   .section-a .bannerInfo .bannerTitle h2 {
@@ -267,7 +267,7 @@ ul {
     color: #000; }
 
 .section-d {
-  background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.753)), url("/dist/images/background/1624-min.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.753)), url("/images/background/1624-min.jpg") no-repeat center center/cover;
   position: relative;
   color: #fff; }
   .section-d h2 {
@@ -524,7 +524,7 @@ footer {
     height: 100%;
     left: 0;
     top: 0;
-    background: url("/dist/images/background/HYP_KEYART_S2_desktop__1_.webp") no-repeat center;
+    background: url("/images/background/HYP_KEYART_S2_desktop__1_.webp") no-repeat center;
     background-size: cover;
     filter: blur(50px);
     z-index: -1; }
@@ -542,7 +542,7 @@ footer {
   box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19); }
 
 .contactLeft {
-  background: url("/dist/images/background/contactUsBanner.jpg") no-repeat center;
+  background: url("/images/background/contactUsBanner.jpg") no-repeat center;
   background-size: cover;
   height: 520px;
   border-top-left-radius: 20px;
