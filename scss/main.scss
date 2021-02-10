@@ -264,7 +264,7 @@ ul {
 .section {
   &-a {
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-      url("images/background/HYP_KEYART_S2_desktop__1_-compressed.jpg")
+      url("/images/background/HYP_KEYART_S2_desktop__1_-compressed.jpg")
         no-repeat center center;
     background-position-y: 0px;
     height: 90vh;
@@ -407,7 +407,7 @@ ul {
   }
   &-d {
     background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.753)),
-      url("images/background/1624-min-compressed.jpg") no-repeat center
+      url("/images/background/1624-min-compressed.jpg") no-repeat center
         center/cover;
     position: relative;
     color: #fff;
