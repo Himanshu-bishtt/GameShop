@@ -176,7 +176,7 @@ ul {
             color: #fff; }
 
 .section-a {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/background/HYP_KEYART_S2_desktop__1_-compressed.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/images/background/HYP_KEYART_S2_desktop__1_-compressed.jpg") no-repeat center center;
   background-position-y: 0px;
   height: 90vh; }
   .section-a .bannerInfo .bannerTitle h2 {
@@ -268,7 +268,7 @@ ul {
     color: #000; }
 
 .section-d {
-  background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.753)), url("images/background/1624-min-compressed.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.753)), url("/images/background/1624-min-compressed.jpg") no-repeat center center/cover;
   position: relative;
   color: #fff; }
   .section-d h2 {
