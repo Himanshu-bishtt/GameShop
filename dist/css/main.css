@@ -260,8 +260,7 @@ ul {
   margin: 1rem 0rem;
   padding-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 0.7rem; }
+  grid-template-columns: repeat(6, 1fr); }
   .section-c .categories img {
     height: 140px;
     width: 140px;
