@@ -204,11 +204,16 @@ ul {
   padding: 1rem 0.4rem 2rem 0.4rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
   text-align: center; }
   .section-b .exploreMoreGamesContainer .moreGames .image img {
     height: 250px;
-    width: 180px; }
+    width: 180px;
+    transition: 0.5s all ease-in-out;
+    border-radius: 15px; }
+    .section-b .exploreMoreGamesContainer .moreGames .image img:hover {
+      box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
+      transform: scale(1.01); }
   .section-b .exploreMoreGamesContainer .moreGames .title h3 {
     padding: 0.8rem 0rem;
     font-size: 0.7rem; }
@@ -260,8 +265,12 @@ ul {
   .section-c .categories img {
     height: 140px;
     width: 140px;
-    border-radius: 50%;
-    box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6); }
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+    border-radius: 15px; }
+    .section-c .categories img:hover {
+      box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
+      transform: scale(1.01); }
   .section-c .categories h3 {
     padding: 0.8rem 0rem;
     font-size: 0.7rem;
