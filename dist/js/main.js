@@ -108,7 +108,8 @@ btn.on("click", function (e) {
 $(document).ready(function () {
   $("#autoWidth").lightSlider({
     autoWidth: true,
-    loop: false,
+    loop: true,
+    auto: true,
     onSliderLoad: function () {
       $("#autoWidth").removeClass("cS-hidden");
     },
