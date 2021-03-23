@@ -110,6 +110,8 @@ $(document).ready(function () {
     autoWidth: true,
     loop: true,
     auto: true,
+    controls: true,
+    pauseOnHover: true,
     onSliderLoad: function () {
       $("#autoWidth").removeClass("cS-hidden");
     },
