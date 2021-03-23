@@ -302,69 +302,64 @@ ul {
   }
 
   &-b {
-    .exploreMoreGamesContainer {
-      .moreGames {
-        padding: 1rem 0.4rem 2rem 0.4rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1.5rem;
-        text-align: center;
+    .box {
+      margin: 1rem 1rem 0.5rem 1rem;
+      .image {
+        img {
+          height: 250px;
+          width: 200px;
+          transition: 0.5s all ease-in-out;
+          border-radius: 15px;
 
-        .image {
-          img {
-            height: 250px;
-            width: 180px;
-            transition: 0.5s all ease-in-out;
-            border-radius: 15px;
-
-            &:hover {
-              box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
-              transform: scale(1.01);
-            }
-          }
-        }
-        .title {
-          h3 {
-            padding: 0.8rem 0rem;
-            font-size: 0.7rem;
-            // font-weight: bold;
-          }
-        }
-
-        .avilableOn {
-          .platform {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 0.8rem;
-            p {
-              font-size: 0.6rem;
-              margin-right: 0.3rem;
-            }
-            img {
-              margin: 0rem 0.1rem;
-              height: 20px;
-              width: 20px;
-            }
-          }
-        }
-
-        .gameRating {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          p {
-            font-size: 0.6rem;
-            margin-right: 0.5rem;
-          }
-          img {
-            height: 20px;
-            width: 15px;
+          &:hover {
+            box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
+            transform: scale(1.01);
           }
         }
       }
+      .title {
+        h3 {
+          padding: 0.8rem 0rem;
+          font-size: 0.7rem;
+          // font-weight: bold;
+        }
+      }
+
+      .avilableOn {
+        .platform {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 0.8rem;
+          p {
+            font-size: 0.6rem;
+            margin-right: 0.3rem;
+          }
+          img {
+            margin: 0rem 0.1rem;
+            height: 20px;
+            width: 20px;
+          }
+        }
+      }
+
+      .gameRating {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+          font-size: 0.6rem;
+          margin-right: 0.5rem;
+        }
+        img {
+          height: 20px;
+          width: 15px;
+        }
+      }
     }
+
     .viewMoreGames {
+      margin-top: 1rem;
       .left {
         position: absolute;
         background: $main-color;

@@ -200,61 +200,58 @@ ul {
     .section-a .bannerInfo .bannerBtn a {
       margin: 0rem 0.8rem; }
 
-.section-b .exploreMoreGamesContainer .moreGames {
-  padding: 1rem 0.4rem 2rem 0.4rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1.5rem;
-  text-align: center; }
-  .section-b .exploreMoreGamesContainer .moreGames .image img {
+.section-b .box {
+  margin: 1rem 1rem 0.5rem 1rem; }
+  .section-b .box .image img {
     height: 250px;
-    width: 180px;
+    width: 200px;
     transition: 0.5s all ease-in-out;
     border-radius: 15px; }
-    .section-b .exploreMoreGamesContainer .moreGames .image img:hover {
+    .section-b .box .image img:hover {
       box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
       transform: scale(1.01); }
-  .section-b .exploreMoreGamesContainer .moreGames .title h3 {
+  .section-b .box .title h3 {
     padding: 0.8rem 0rem;
     font-size: 0.7rem; }
-  .section-b .exploreMoreGamesContainer .moreGames .avilableOn .platform {
+  .section-b .box .avilableOn .platform {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 0.8rem; }
-    .section-b .exploreMoreGamesContainer .moreGames .avilableOn .platform p {
+    .section-b .box .avilableOn .platform p {
       font-size: 0.6rem;
       margin-right: 0.3rem; }
-    .section-b .exploreMoreGamesContainer .moreGames .avilableOn .platform img {
+    .section-b .box .avilableOn .platform img {
       margin: 0rem 0.1rem;
       height: 20px;
       width: 20px; }
-  .section-b .exploreMoreGamesContainer .moreGames .gameRating {
+  .section-b .box .gameRating {
     display: flex;
     align-items: center;
     justify-content: center; }
-    .section-b .exploreMoreGamesContainer .moreGames .gameRating p {
+    .section-b .box .gameRating p {
       font-size: 0.6rem;
       margin-right: 0.5rem; }
-    .section-b .exploreMoreGamesContainer .moreGames .gameRating img {
+    .section-b .box .gameRating img {
       height: 20px;
       width: 15px; }
 
-.section-b .viewMoreGames .left {
-  position: absolute;
-  background: #c13584;
-  height: 2px;
-  width: 22rem;
-  left: 6%;
-  margin-top: 0.5rem; }
-
-.section-b .viewMoreGames .right {
-  position: absolute;
-  background: #c13584;
-  height: 2px;
-  width: 22rem;
-  right: 6%;
-  margin-top: 0.5rem; }
+.section-b .viewMoreGames {
+  margin-top: 1rem; }
+  .section-b .viewMoreGames .left {
+    position: absolute;
+    background: #c13584;
+    height: 2px;
+    width: 22rem;
+    left: 6%;
+    margin-top: 0.5rem; }
+  .section-b .viewMoreGames .right {
+    position: absolute;
+    background: #c13584;
+    height: 2px;
+    width: 22rem;
+    right: 6%;
+    margin-top: 0.5rem; }
 
 .section-c .categories {
   margin: 1rem 0rem;
