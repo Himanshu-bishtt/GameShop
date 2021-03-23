@@ -200,6 +200,9 @@ ul {
     .section-a .bannerInfo .bannerBtn a {
       margin: 0rem 0.8rem; }
 
+.section-b .lSAction > a {
+  display: none; }
+
 .section-b .box {
   margin: 1rem 1rem 0.5rem 1rem; }
   .section-b .box .image img {

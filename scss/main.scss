@@ -302,6 +302,10 @@ ul {
   }
 
   &-b {
+    // Slider prev and next button
+    .lSAction > a {
+      display: none;
+    }
     .box {
       margin: 1rem 1rem 0.5rem 1rem;
       .image {
