@@ -103,3 +103,14 @@ btn.on("click", function (e) {
   e.preventDefault();
   $("html, body").animate({ scrollTop: 0 }, "500");
 });
+
+// exploreGamesScoller
+$(document).ready(function () {
+  $("#autoWidth").lightSlider({
+    autoWidth: true,
+    loop: false,
+    onSliderLoad: function () {
+      $("#autoWidth").removeClass("cS-hidden");
+    },
+  });
+});
