@@ -2,6 +2,9 @@ $main-color: #c13584;
 $dark-color: #333;
 $max-widht: 1250px;
 
+@import "_mixins";
+@import "_variables";
+
 * {
   margin: 0;
   padding: 0;
@@ -155,8 +158,6 @@ ul {
       height: 3.5rem;
 
       .logo {
-        font-style: italic;
-
         img {
           margin-top: 0.2rem;
           height: 50px;
@@ -185,6 +186,10 @@ ul {
             }
           }
         }
+      }
+
+      .navigation {
+        display: none;
       }
 
       .searchBar {
@@ -399,7 +404,7 @@ ul {
 
         &:hover {
           box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
-          transform: scale(1.01);
+          transform: scale(1.03);
         }
       }
 
@@ -464,6 +469,7 @@ ul {
     }
   }
 
+  // latest news blog
   &-e {
     .newsGrid {
       margin-top: 1rem;
