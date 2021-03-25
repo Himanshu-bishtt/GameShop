@@ -104,14 +104,29 @@ btn.on("click", function (e) {
   $("html, body").animate({ scrollTop: 0 }, "500");
 });
 
-// exploreGamesScoller
+// categoriesSlider
 $(document).ready(function () {
-  $("#autoWidth").lightSlider({
+  $("#categorySlider").lightSlider({
     autoWidth: true,
     loop: true,
     auto: true,
-    controls: true,
+    controls: false,
     pauseOnHover: true,
+    pager: false,
+    onSliderLoad: function () {
+      $("#categorySlider").removeClass("cS-hidden");
+    },
+  });
+});
+
+// exploreMoreGamesSlider
+$(document).ready(function () {
+  $("#autoWidth").lightSlider({
+    autoWidth: true,
+    loop: false,
+    controls: false,
+    pauseOnHover: true,
+    // pager: false,
     onSliderLoad: function () {
       $("#autoWidth").removeClass("cS-hidden");
     },

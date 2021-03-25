@@ -302,10 +302,6 @@ ul {
   }
 
   &-b {
-    // Slider prev and next button
-    .lSAction > a {
-      display: none;
-    }
     .box {
       margin: 1rem 1rem 0.5rem 1rem;
       .image {
@@ -387,19 +383,18 @@ ul {
     .categories {
       margin: 1rem 0rem;
       padding-top: 2rem;
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
+      // padding-bottom: 5rem;
+      // height: 300px;
+      // display: grid;
+      // grid-template-columns: repeat(6, 1fr);
       // grid-gap: 0.7rem;
 
       img {
         height: 140px;
         width: 140px;
-        // border-radius: 50%;
-        border-radius: 10px;
-        // box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
-
+        margin: 0rem 1rem;
         transition: 0.5s all ease-in-out;
-        border-radius: 15px;
+        border-radius: 50%;
 
         &:hover {
           box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
