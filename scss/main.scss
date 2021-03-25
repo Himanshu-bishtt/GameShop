@@ -300,7 +300,7 @@ ul {
       }
     }
   }
-
+  // exploreMoreGames
   &-b {
     .box {
       margin: 1rem 1rem 0.5rem 1rem;
@@ -379,6 +379,7 @@ ul {
     }
   }
 
+  // categories
   &-c {
     .categories {
       margin: 1rem 0rem;
@@ -409,6 +410,7 @@ ul {
       }
     }
   }
+  // testimonials
   &-d {
     background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.753)),
       url("/images/background/1624-min-compressed.jpg") no-repeat center
@@ -468,7 +470,7 @@ ul {
       .primaryGrid {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-gap: 2rem;
+        grid-gap: 1rem;
 
         .primaryBanner {
           margin-left: 1rem;
@@ -495,7 +497,7 @@ ul {
           }
 
           h3 {
-            font-size: 0.7rem;
+            font-size: 0.8rem;
             margin: 0rem 0.6rem;
             // text-align: center;
           }
@@ -802,3 +804,7 @@ footer {
 // --------------------- Contact Us ---------------------
 @import "_contactUs";
 // --------------------- Contact Us ---------------------
+
+// --------------------- Media Queries ------------------
+@import "_mediaQueries";
+// --------------------- Media Queries ------------------
