@@ -775,7 +775,7 @@ textarea {
         position: absolute;
         left: 0;
         transition: all 0.2s;
-        top: -0.6rem; }
+        top: -0.3rem; }
       #main-header .navbar .navbarInner .navigation .navigation__icon::after {
         width: 1.4rem;
         height: 2px;
@@ -785,7 +785,7 @@ textarea {
         position: absolute;
         left: 0;
         transition: all 0.2s;
-        top: 0.6rem; } }
+        top: 0.3rem; } }
   @media (max-width: 500px) and (max-width: 56.25em) {
     #main-header .navbar .navbarInner .navigation .navigation__button {
       top: 4rem;
