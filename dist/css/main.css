@@ -761,7 +761,7 @@ textarea {
       transform: translateX(1rem); }
     #main-header .navbar .navbarInner .navigation .navigation__icon {
       position: relative;
-      margin-top: 1.2rem;
+      margin-top: 1rem;
       width: 1.4rem;
       height: 2px;
       background-color: #fff;
