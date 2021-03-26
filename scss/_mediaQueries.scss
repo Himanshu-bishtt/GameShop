@@ -331,6 +331,7 @@
   }
 
   .section {
+    // main banner
     &-a {
       .bannerInfo {
         .bannerTitle {
@@ -346,6 +347,46 @@
         .bannerBtn {
           a {
             margin: 0rem 0.3rem;
+          }
+        }
+      }
+    }
+    // exploreMoreGames
+    &-b {
+      .heading {
+        h2 {
+          font-size: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+      .box {
+        margin: 0rem 0.6rem;
+        .image {
+          img {
+            height: 220px;
+            width: 150px;
+          }
+        }
+
+        .title {
+          h3 {
+            font-size: 0.6rem;
+          }
+        }
+
+        .avilableOn {
+          .platform {
+            img {
+              height: 15px;
+              width: 15px;
+            }
+          }
+        }
+
+        .gameRating {
+          img {
+            height: 15px;
+            width: 10px;
           }
         }
       }

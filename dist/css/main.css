@@ -826,4 +826,20 @@ textarea {
   .section-a .bannerInfo .bannerTitle h3 {
     font-size: 0.7rem; }
   .section-a .bannerInfo .bannerBtn a {
-    margin: 0rem 0.3rem; } }
+    margin: 0rem 0.3rem; }
+  .section-b .heading h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem; }
+  .section-b .box {
+    margin: 0rem 0.6rem; }
+    .section-b .box .image img {
+      height: 220px;
+      width: 150px; }
+    .section-b .box .title h3 {
+      font-size: 0.6rem; }
+    .section-b .box .avilableOn .platform img {
+      height: 15px;
+      width: 15px; }
+    .section-b .box .gameRating img {
+      height: 15px;
+      width: 10px; } }
