@@ -81,6 +81,10 @@
 }
 
 @media (max-width: 500px) {
+  // main heading
+  .mainHeading {
+    font-size: 1.3rem;
+  }
   // buttons
   .btn {
     &-1 {
@@ -353,12 +357,6 @@
     }
     // exploreMoreGames
     &-b {
-      .heading {
-        h2 {
-          font-size: 1.4rem;
-          margin-bottom: 1rem;
-        }
-      }
       .box {
         margin: 0rem 0.6rem;
         .image {
@@ -389,6 +387,21 @@
             width: 10px;
           }
         }
+      }
+
+      .viewMoreGames {
+        .left,
+        .right {
+          width: 4.5rem;
+        }
+      }
+    }
+
+    // categories
+    &-c {
+      img {
+        height: 100px;
+        width: 100px;
       }
     }
   }
