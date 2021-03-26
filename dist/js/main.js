@@ -126,7 +126,7 @@ $(document).ready(function () {
     loop: false,
     controls: false,
     pauseOnHover: true,
-    // pager: false,
+    pager: false,
     onSliderLoad: function () {
       $("#autoWidth").removeClass("cS-hidden");
     },
