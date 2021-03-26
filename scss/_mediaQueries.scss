@@ -435,6 +435,14 @@
         font-size: 1.1rem;
       }
 
+      #desktopOnly {
+        display: none;
+      }
+
+      #mobileOnly {
+        display: block;
+      }
+
       .testimonials {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0rem;

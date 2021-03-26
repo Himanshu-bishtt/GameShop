@@ -132,3 +132,18 @@ $(document).ready(function () {
     },
   });
 });
+
+// testimonialSlider
+
+$(document).ready(function () {
+  $("#testimonialSlider").lightSlider({
+    autoWidth: true,
+    loop: false,
+    controls: false,
+    pauseOnHover: true,
+    pager: false,
+    onSliderLoad: function () {
+      $("#testimonialSlider").removeClass("cs-hidden");
+    },
+  });
+});

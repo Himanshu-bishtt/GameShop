@@ -277,6 +277,8 @@ ul {
   .section-d h2 {
     text-shadow: 0 2px 10px #000;
     color: #fff; }
+  .section-d #mobileOnly {
+    display: none; }
   .section-d .testimonials {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -865,6 +867,10 @@ textarea {
       font-size: 0.6rem; }
   .section-d h2 {
     font-size: 1.1rem; }
+  .section-d #desktopOnly {
+    display: none; }
+  .section-d #mobileOnly {
+    display: block; }
   .section-d .testimonials {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0rem; }
