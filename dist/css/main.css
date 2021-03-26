@@ -705,9 +705,9 @@ textarea {
       text-align: center;
       cursor: pointer; }
       #main-header .navbar .navbarInner .navigation .navigation__button:hover .navigation__icon::before {
-        top: -0.6rem; }
+        top: -0.4rem; }
       #main-header .navbar .navbarInner .navigation .navigation__button:hover .navigation__icon::after {
-        top: 0.6rem; }
+        top: 0.4rem; }
     #main-header .navbar .navbarInner .navigation .navigation__background {
       height: 1rem;
       width: 1rem;
@@ -830,7 +830,7 @@ textarea {
   .section-a .bannerInfo .bannerBtn a {
     margin: 0rem 0.3rem; }
   .section-b .box {
-    margin: 0rem 0.6rem; }
+    margin: 1rem 0.6rem 0rem 0.6rem; }
     .section-b .box .image img {
       height: 220px;
       width: 150px; }
@@ -845,6 +845,8 @@ textarea {
   .section-b .viewMoreGames .left,
   .section-b .viewMoreGames .right {
     width: 4.5rem; }
-  .section-c img {
-    height: 100px;
-    width: 100px; } }
+  .section-c .categories {
+    padding-top: 1rem; }
+    .section-c .categories img {
+      height: 100px;
+      width: 100px; } }
