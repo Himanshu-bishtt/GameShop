@@ -821,12 +821,12 @@ textarea {
     #main-header .navbar .navbarInner .searchBar {
       display: none; }
     #main-header .navbar .navbarInner .actions {
-      margin-left: 10rem; }
+      margin-left: 11rem; }
       #main-header .navbar .navbarInner .actions img {
         height: 25px !important;
         width: 25px !important; }
       #main-header .navbar .navbarInner .actions .shoppingCart {
-        padding: 0rem 0.7rem 0rem 0.3rem; }
+        padding: 0rem 0.7rem 0rem 0rem; }
       #main-header .navbar .navbarInner .actions .wishList {
         padding: 0rem 0.3rem; }
       #main-header .navbar .navbarInner .actions .userAccount {
