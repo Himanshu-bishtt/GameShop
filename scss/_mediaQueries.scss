@@ -81,6 +81,26 @@
 }
 
 @media (max-width: 500px) {
+  // buttons
+  .btn {
+    &-1 {
+      font-size: 0.7rem;
+      padding: 0.6rem 1.5rem;
+      background: $main-color;
+      border-radius: 20px;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
+    &-2 {
+      font-size: 0.7rem;
+      padding: 0.6rem 1.5rem;
+      background: $main-color;
+      border-radius: 20px;
+    }
+  }
+
   #main-header {
     .topbar {
       display: none;
@@ -304,6 +324,28 @@
           img {
             height: 28px !important;
             width: 28px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .section {
+    &-a {
+      .bannerInfo {
+        .bannerTitle {
+          h2 {
+            font-size: 2rem;
+          }
+
+          h3 {
+            font-size: 0.7rem;
+          }
+        }
+
+        .bannerBtn {
+          a {
+            margin: 0rem 0.3rem;
           }
         }
       }
