@@ -219,7 +219,7 @@
               display: inline-block;
               font-size: 1rem;
               font-weight: 300;
-              padding: 1rem 2rem;
+              padding: 1rem 2.2rem;
               color: #fff;
               text-decoration: none;
               text-transform: uppercase;
@@ -351,6 +351,7 @@
   .section {
     // main banner
     &-a {
+      height: 70vh;
       .bannerInfo {
         .bannerTitle {
           h2 {
@@ -425,6 +426,18 @@
         h3 {
           font-size: 0.6rem;
         }
+      }
+    }
+
+    // testimonials
+    &-d {
+      h2 {
+        font-size: 1.1rem;
+      }
+
+      .testimonials {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0rem;
       }
     }
   }

@@ -743,7 +743,7 @@ textarea {
         display: inline-block;
         font-size: 1rem;
         font-weight: 300;
-        padding: 1rem 2rem;
+        padding: 1rem 2.2rem;
         color: #fff;
         text-decoration: none;
         text-transform: uppercase;
@@ -831,12 +831,14 @@ textarea {
         padding: 0rem 0.3rem; }
       #main-header .navbar .navbarInner .actions .userAccount {
         padding: 0rem 0.3rem; }
-  .section-a .bannerInfo .bannerTitle h2 {
-    font-size: 2rem; }
-  .section-a .bannerInfo .bannerTitle h3 {
-    font-size: 0.7rem; }
-  .section-a .bannerInfo .bannerBtn a {
-    margin: 0rem 0.3rem; }
+  .section-a {
+    height: 70vh; }
+    .section-a .bannerInfo .bannerTitle h2 {
+      font-size: 2rem; }
+    .section-a .bannerInfo .bannerTitle h3 {
+      font-size: 0.7rem; }
+    .section-a .bannerInfo .bannerBtn a {
+      margin: 0rem 0.3rem; }
   .section-b .box {
     margin: 1rem 0.6rem 0rem 0.6rem; }
     .section-b .box .image img {
@@ -860,4 +862,9 @@ textarea {
       width: 100px;
       margin: 0rem 0.5rem; }
     .section-c .categories h3 {
-      font-size: 0.6rem; } }
+      font-size: 0.6rem; }
+  .section-d h2 {
+    font-size: 1.1rem; }
+  .section-d .testimonials {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0rem; } }
