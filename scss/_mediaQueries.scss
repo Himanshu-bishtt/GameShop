@@ -112,6 +112,8 @@
 
     .navbar {
       .navbarInner {
+        height: 3rem;
+
         .logo {
           img {
             display: none;
@@ -160,7 +162,7 @@
             height: 2rem;
             width: 2rem;
             position: fixed;
-            top: 0.7rem !important;
+            top: 0.5rem !important;
             left: 0.4rem;
             border-radius: 50%;
             z-index: 2000;
@@ -326,8 +328,12 @@
           margin-left: 10rem;
 
           img {
-            height: 28px !important;
-            width: 28px !important;
+            height: 25px !important;
+            width: 25px !important;
+          }
+
+          .shoppingCart {
+            padding: 0rem 0.7rem 0rem 0.3rem;
           }
         }
       }
@@ -405,6 +411,11 @@
         img {
           height: 100px;
           width: 100px;
+          margin: 0rem 0.5rem;
+        }
+
+        h3 {
+          font-size: 0.6rem;
         }
       }
     }
