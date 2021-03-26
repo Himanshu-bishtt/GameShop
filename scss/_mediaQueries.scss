@@ -438,6 +438,11 @@
       .testimonials {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0rem;
+
+        p {
+          font-size: 0.6rem;
+          margin: 0rem 1rem;
+        }
       }
     }
   }

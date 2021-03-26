@@ -867,4 +867,7 @@ textarea {
     font-size: 1.1rem; }
   .section-d .testimonials {
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0rem; } }
+    grid-gap: 0rem; }
+    .section-d .testimonials p {
+      font-size: 0.6rem;
+      margin: 0rem 1rem; } }
