@@ -127,24 +127,18 @@ ul {
             border-bottom: 5px solid #c13584; }
       #main-header .navbar .navbarInner .navigation {
         display: none; }
-      #main-header .navbar .navbarInner .searchBar {
+      #main-header .navbar .navbarInner .searchBar form input {
+        width: 120%;
+        border: none;
+        font-size: 0.7rem;
+        padding: 0.6rem 0.7rem 0.6rem 1rem;
+        color: #ccc;
         background-color: #f5f5f6;
-        padding: 0rem 2rem;
-        border-radius: 22px; }
-        #main-header .navbar .navbarInner .searchBar .searchIcon {
-          display: flex;
-          align-items: center; }
-          #main-header .navbar .navbarInner .searchBar .searchIcon .icon {
-            width: 27px;
-            height: 26px;
-            margin-right: -27px;
-            display: none; }
-          #main-header .navbar .navbarInner .searchBar .searchIcon input {
-            background-color: #f5f5f6;
-            border: none;
-            padding: 0.5rem 3rem;
-            outline: none;
-            color: #333; }
+        border-radius: 60px; }
+        #main-header .navbar .navbarInner .searchBar form input:focus {
+          outline: none;
+          color: #1b1b1b;
+          background-color: #fff; }
       #main-header .navbar .navbarInner .actions {
         display: flex;
         justify-content: space-evenly;
@@ -803,7 +797,24 @@ textarea {
           position: absolute;
           left: 0;
           transition: all 0.2s;
-          top: 0.4rem; } }
+          top: 0.4rem; }
+      #main-header .navbar .navbarInner .navigation form {
+        position: absolute;
+        bottom: 11rem;
+        left: 2rem; }
+        #main-header .navbar .navbarInner .navigation form input {
+          width: 126%;
+          padding: 1rem 0.7rem 1rem 2rem;
+          border: none;
+          color: #ccc;
+          background: url("/dist/images/icons/icons8-search-24.png") no-repeat;
+          background-position: 10px 17px;
+          background-color: #f5f5f6;
+          border-radius: 50px; }
+          #main-header .navbar .navbarInner .navigation form input:focus {
+            outline: none;
+            color: #1b1b1b;
+            background-color: #fff; } }
     @media (max-width: 500px) and (max-width: 56.25em) {
       #main-header .navbar .navbarInner .navigation .navigation__button {
         top: 4rem;
@@ -834,7 +845,7 @@ textarea {
       #main-header .navbar .navbarInner .actions .userAccount {
         padding: 0rem 0.3rem; }
   .section-a {
-    height: 70vh; }
+    height: 60vh; }
     .section-a .bannerInfo .bannerTitle h2 {
       font-size: 2rem; }
     .section-a .bannerInfo .bannerTitle h3 {

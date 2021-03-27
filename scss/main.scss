@@ -193,33 +193,53 @@ ul {
       }
 
       .searchBar {
-        background-color: #f5f5f6;
-        // border-radius: 10px;
-        padding: 0rem 2rem;
-        border-radius: 22px;
-
-        .searchIcon {
-          display: flex;
-          align-items: center;
-
-          .icon {
-            // margin-left: 0.5rem;
-            width: 27px;
-            height: 26px;
-            margin-right: -27px;
-            display: none;
-          }
-
+        form {
           input {
-            background-color: #f5f5f6;
+            width: 120%;
             border: none;
-            padding: 0.5rem 3rem;
-            // padding: 0.5rem 3rem 0.5rem 0.7rem;
-            outline: none;
-            color: $dark-color;
+            font-size: 0.7rem;
+            padding: 0.6rem 0.7rem 0.6rem 1rem;
+            color: #ccc;
+            background-color: #f5f5f6;
+            border-radius: 60px;
+
+            &:focus {
+              outline: none;
+              color: #1b1b1b;
+              background-color: #fff;
+            }
           }
         }
       }
+
+      // .searchBar {
+      //   background-color: #f5f5f6;
+      //   // border-radius: 10px;
+      //   padding: 0rem 2rem;
+      //   border-radius: 22px;
+
+      //   .searchIcon {
+      //     display: flex;
+      //     align-items: center;
+
+      //     .icon {
+      //       // margin-left: 0.5rem;
+      //       width: 27px;
+      //       height: 26px;
+      //       margin-right: -27px;
+      //       display: none;
+      //     }
+
+      //     input {
+      //       background-color: #f5f5f6;
+      //       border: none;
+      //       padding: 0.5rem 3rem;
+      //       // padding: 0.5rem 3rem 0.5rem 0.7rem;
+      //       outline: none;
+      //       color: $dark-color;
+      //     }
+      //   }
+      // }
       .actions {
         display: flex;
         justify-content: space-evenly;
