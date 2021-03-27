@@ -800,10 +800,11 @@ textarea {
           top: 0.4rem; }
       #main-header .navbar .navbarInner .navigation form {
         position: absolute;
-        bottom: 11rem;
-        left: 2rem; }
+        bottom: 12rem;
+        left: 1rem; }
         #main-header .navbar .navbarInner .navigation form input {
-          width: 126%;
+          position: fixed;
+          width: 88%;
           padding: 1rem 0.7rem 1rem 2rem;
           border: none;
           color: #ccc;
@@ -889,4 +890,6 @@ textarea {
       margin-left: 1rem; }
       .section-d .testimonials .box p {
         font-size: 0.6rem;
-        margin: 0rem 1rem; } }
+        margin: 0rem 1rem; }
+  .section-e {
+    display: none; } }
