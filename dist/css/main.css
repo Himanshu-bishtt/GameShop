@@ -727,7 +727,7 @@ textarea {
         transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
       #main-header .navbar .navbarInner .navigation .navigation__list {
         position: absolute;
-        top: 40%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         list-style: none;
@@ -807,7 +807,7 @@ textarea {
           padding: 1rem 0.7rem 1rem 2rem;
           border: none;
           color: #ccc;
-          background: url("/dist/images/icons/icons8-search-24.png") no-repeat;
+          background: url("/images/icons/icons8-search-24.png") no-repeat;
           background-position: 10px 17px;
           background-color: #f5f5f6;
           border-radius: 50px; }
