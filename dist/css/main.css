@@ -892,4 +892,32 @@ textarea {
         font-size: 0.6rem;
         margin: 0rem 1rem; }
   .section-e {
-    display: none; } }
+    display: none; }
+  .section-f {
+    padding: 1rem 0rem !important; }
+    .section-f h2 {
+      font-size: 1.1rem; }
+    .section-f p {
+      font-size: 0.7rem; }
+    .section-f .inputArea {
+      padding: 1rem 0rem; }
+      .section-f .inputArea input {
+        padding: 1rem 1rem;
+        margin-bottom: 1rem; }
+  footer {
+    text-align: center; }
+    footer .contact {
+      margin-bottom: 0rem !important; }
+      footer .contact h2 {
+        margin-bottom: 0rem; }
+      footer .contact .info li {
+        display: block;
+        margin: 0rem; }
+      footer .contact .info .fa {
+        display: none; }
+      footer .contact .info span {
+        margin-left: 1rem; }
+  .text {
+    padding: 10px 0px 10px 0px; }
+    .text p {
+      font-size: 0.7rem; } }

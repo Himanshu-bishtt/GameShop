@@ -484,5 +484,57 @@
     &-e {
       display: none;
     }
+
+    // newsletter
+    &-f {
+      padding: 1rem 0rem !important;
+      h2 {
+        font-size: 1.1rem;
+      }
+      p {
+        font-size: 0.7rem;
+      }
+
+      .inputArea {
+        padding: 1rem 0rem;
+
+        input {
+          padding: 1rem 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+
+  footer {
+    text-align: center;
+    .contact {
+      margin-bottom: 0rem !important;
+      h2 {
+        margin-bottom: 0rem;
+      }
+      .info {
+        // display: block;
+
+        li {
+          display: block;
+          margin: 0rem;
+        }
+        .fa {
+          display: none;
+        }
+
+        span {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+
+  .text {
+    padding: 10px 0px 10px 0px;
+    p {
+      font-size: 0.7rem;
+    }
   }
 }
