@@ -846,7 +846,8 @@ textarea {
       #main-header .navbar .navbarInner .actions .userAccount {
         padding: 0rem 0.3rem; }
   .section-a {
-    height: 60vh; }
+    height: 60vh;
+    background-size: cover; }
     .section-a .bannerInfo .bannerTitle h2 {
       font-size: 2rem; }
     .section-a .bannerInfo .bannerTitle h3 {
