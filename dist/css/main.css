@@ -904,7 +904,8 @@ textarea {
       padding: 1rem 0rem; }
       .section-f .inputArea input {
         padding: 1rem 1rem;
-        margin-bottom: 1rem; }
+        margin-bottom: 1rem;
+        font-size: 0.9rem; }
   footer {
     text-align: center; }
     footer .contact {
