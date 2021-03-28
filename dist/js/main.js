@@ -116,7 +116,7 @@ $(document).ready(function () {
     // controls: true,
     mode: "fade",
     onSliderLoad: function () {
-      $("#mainBannerSlider").removeClass("cs-hidden");
+      $("#mainBannerSlider").removeClass("cS-hidden");
     },
   });
 });
@@ -159,7 +159,7 @@ $(document).ready(function () {
     pauseOnHover: true,
     pager: false,
     onSliderLoad: function () {
-      $("#testimonialSlider").removeClass("cs-hidden");
+      $("#testimonialSlider").removeClass("cS-hidden");
     },
   });
 });
