@@ -104,17 +104,19 @@ btn.on("click", function (e) {
   $("html, body").animate({ scrollTop: 0 }, "500");
 });
 
-// categoriesSlider
+// mainBannerSlider
 $(document).ready(function () {
-  $("#categorySlider").lightSlider({
+  $("#mainBannerSlider").lightSlider({
     autoWidth: true,
     loop: true,
-    auto: true,
-    controls: false,
+    // auto: true,
     pauseOnHover: true,
+    time: 2000,
     pager: false,
+    controls: true,
+    // mode: "fade",
     onSliderLoad: function () {
-      $("#categorySlider").removeClass("cS-hidden");
+      $("#mainBannerSlider").removeClass("cs-hidden");
     },
   });
 });
@@ -133,8 +135,22 @@ $(document).ready(function () {
   });
 });
 
-// testimonialSlider
+// categoriesSlider
+$(document).ready(function () {
+  $("#categorySlider").lightSlider({
+    autoWidth: true,
+    loop: true,
+    auto: true,
+    controls: false,
+    pauseOnHover: true,
+    pager: false,
+    onSliderLoad: function () {
+      $("#categorySlider").removeClass("cS-hidden");
+    },
+  });
+});
 
+// testimonialSlider
 $(document).ready(function () {
   $("#testimonialSlider").lightSlider({
     autoWidth: true,

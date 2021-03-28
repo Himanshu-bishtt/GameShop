@@ -374,9 +374,18 @@
   .section {
     // main banner
     &-a {
-      height: 60vh;
-      background-size: cover;
-      .bannerInfo {
+      .item {
+        &-a {
+          height: 60vh;
+          background-size: cover;
+        }
+
+        &-b {
+          height: 60vh;
+          background-size: cover;
+        }
+      }
+      li {
         .bannerTitle {
           h2 {
             font-size: 2rem;
