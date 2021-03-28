@@ -315,11 +315,19 @@ ul {
       width: 100vw;
 
       .btn-1 {
-        background-color: rgba(26, 123, 187, 0.753);
+        background-color: rgb(26, 123, 187);
+
+        &-hover {
+          opacity: 0.9;
+        }
       }
 
       .btn-2 {
-        background-color: rgba(26, 123, 187, 0.753);
+        background-color: rgb(26, 123, 187);
+
+        &-hover {
+          opacity: 0.9;
+        }
       }
     }
 

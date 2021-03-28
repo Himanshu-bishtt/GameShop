@@ -109,12 +109,12 @@ $(document).ready(function () {
   $("#mainBannerSlider").lightSlider({
     autoWidth: true,
     loop: true,
-    // auto: true,
+    auto: true,
     pauseOnHover: true,
     time: 2000,
     pager: false,
-    controls: true,
-    // mode: "fade",
+    // controls: true,
+    mode: "fade",
     onSliderLoad: function () {
       $("#mainBannerSlider").removeClass("cs-hidden");
     },

@@ -188,9 +188,13 @@ ul {
   height: 90vh;
   width: 100vw; }
   .section-a .item-b .btn-1 {
-    background-color: rgba(26, 123, 187, 0.753); }
+    background-color: #1a7bbb; }
+    .section-a .item-b .btn-1-hover {
+      opacity: 0.9; }
   .section-a .item-b .btn-2 {
-    background-color: rgba(26, 123, 187, 0.753); }
+    background-color: #1a7bbb; }
+    .section-a .item-b .btn-2-hover {
+      opacity: 0.9; }
 
 .section-a li .bannerTitle h2 {
   color: #fff;
