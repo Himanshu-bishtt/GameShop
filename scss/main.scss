@@ -201,7 +201,7 @@ ul {
             font-size: 0.7rem;
             padding: 0.5rem 0.7rem 0.5rem 2rem;
             color: #ccc;
-            background: url("/dist/images/icons/icons8-search-24.png") no-repeat;
+            background: url("/images/icons/icons8-search-24.png") no-repeat;
             background-size: 20px 20px;
             border-bottom: 0.001rem solid #fff;
             // background-color: #fff;
@@ -298,7 +298,7 @@ ul {
   &-a {
     .item-a {
       background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("/dist/images/background/HYP_KEYART_S2_desktop__1_-compressed.jpg")
+        url("/images/background/HYP_KEYART_S2_desktop__1_-compressed.jpg")
           no-repeat center center;
       background-size: cover;
       height: 90vh;
@@ -307,8 +307,8 @@ ul {
 
     .item-b {
       background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("/dist/images/background/Ubicom_IFR-keyart_blacklayer.jpg")
-          no-repeat center center;
+        url("/images/background/Ubicom_IFR-keyart_blacklayer.jpg") no-repeat
+          center center;
       background-size: cover;
       background-position-y: 0px;
       height: 90vh;
