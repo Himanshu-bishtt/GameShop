@@ -4,7 +4,7 @@ window.addEventListener("scroll", function () {
   // let topbar = document.querySelector(".topbar");
   let navbarActions = document.querySelector(".actions");
   let navbarLogo = document.querySelector(".logo");
-  if (window.scrollY > 600) {
+  if (window.scrollY > 200) {
     navbar.style.opacity = 0.95;
     // topbar.style.display = "none";
     navbarActions.style.display = "none";
