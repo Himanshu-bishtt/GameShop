@@ -109,10 +109,12 @@ ul {
       align-items: center;
       justify-content: space-evenly;
       height: 3.5rem; }
-      #main-header .navbar .navbarInner .logo img {
-        margin-top: 0.2rem;
-        height: 50px;
-        width: 70px; }
+      #main-header .navbar .navbarInner .logo {
+        display: none; }
+        #main-header .navbar .navbarInner .logo img {
+          margin-top: 0.2rem;
+          height: 50px;
+          width: 70px; }
       #main-header .navbar .navbarInner .menu .menuItems {
         display: flex;
         justify-content: center;
