@@ -300,20 +300,21 @@ ul {
   &-a {
     .item-a {
       background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("/images/background/HYP_KEYART_S2_desktop__1_-compressed.jpg")
+        url("/dist/images/background/HYP_KEYART_S2_desktop__1_-compressed.jpg")
           no-repeat center center;
       background-size: cover;
-      height: 90vh;
+      background-position-y: 10px;
+      height: 100vh;
       width: 100vw;
     }
 
     .item-b {
       background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("/images/background/Ubicom_IFR-keyart_blacklayer.jpg") no-repeat
-          center center;
+        url("/dist/images/background/Ubicom_IFR-keyart_blacklayer.jpg")
+          no-repeat center center;
       background-size: cover;
-      background-position-y: 0px;
-      height: 90vh;
+      background-position-y: 70px;
+      height: 100vh;
       width: 100vw;
 
       .btn-1 {
@@ -341,7 +342,7 @@ ul {
           font-weight: bold;
           text-align: center;
           text-shadow: 0 2px 10px #000;
-          padding-top: 7rem;
+          padding-top: 10rem;
         }
         h3 {
           color: #fff;
