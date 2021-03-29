@@ -839,14 +839,15 @@ textarea {
         #main-header .navbar .navbarInner .navigation form input {
           position: fixed;
           width: 88%;
-          padding: 1rem 0.7rem 1rem 2rem;
+          padding: 1rem 0.7rem 1rem 2.6rem;
           border: none;
           color: #ccc;
           background: url("/images/icons/icons8-search-24.png") no-repeat;
-          background-position: 10px 17px;
+          background-position: 18px 16px;
           background-color: #f5f5f6;
           border-radius: 50px;
-          box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.425); }
+          box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.425);
+          font-size: 0.8rem; }
           #main-header .navbar .navbarInner .navigation form input:focus {
             outline: none;
             color: #1b1b1b;
