@@ -145,6 +145,7 @@ ul {
           outline: none;
           color: #1b1b1b;
           background-color: rgba(255, 255, 255, 0.945);
+          box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
           width: 120%;
           border-radius: 20px; }
       #main-header .navbar .navbarInner .actions {
@@ -844,7 +845,8 @@ textarea {
           background: url("/images/icons/icons8-search-24.png") no-repeat;
           background-position: 10px 17px;
           background-color: #f5f5f6;
-          border-radius: 50px; }
+          border-radius: 50px;
+          box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.425); }
           #main-header .navbar .navbarInner .navigation form input:focus {
             outline: none;
             color: #1b1b1b;
