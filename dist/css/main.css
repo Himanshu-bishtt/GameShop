@@ -72,7 +72,7 @@ ul {
   background: #f2f2f2; }
 
 #main-header {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -648,6 +648,14 @@ textarea {
   .left {
     height: 200px; } }
 
+.latestNewsSection-a video {
+  object-fit: cover;
+  width: 98.9vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
 @media (max-width: 1100px) {
   .section-b .box .image img {
     height: 270px;
@@ -847,7 +855,7 @@ textarea {
           background-color: #f5f5f6;
           border-radius: 50px;
           box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.425);
-          font-size: 0.8rem; }
+          font-size: 0.7rem; }
           #main-header .navbar .navbarInner .navigation form input:focus {
             outline: none;
             color: #1b1b1b;

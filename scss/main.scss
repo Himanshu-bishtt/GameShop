@@ -112,7 +112,7 @@ ul {
 }
 
 #main-header {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -873,6 +873,8 @@ footer {
 // --------------------- Contact Us ---------------------
 @import "_contactUs";
 // --------------------- Contact Us ---------------------
+
+@import "_latestNews";
 
 // --------------------- Media Queries ------------------
 @import "_mediaQueries";
