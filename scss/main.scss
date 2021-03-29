@@ -300,7 +300,7 @@ ul {
   &-a {
     .item-a {
       background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("/dist/images/background/HYP_KEYART_S2_desktop__1_-compressed.jpg")
+        url("/images/background/HYP_KEYART_S2_desktop__1_-compressed.jpg")
           no-repeat center center;
       background-size: cover;
       background-position-y: 10px;
@@ -310,8 +310,8 @@ ul {
 
     .item-b {
       background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("/dist/images/background/Ubicom_IFR-keyart_blacklayer.jpg")
-          no-repeat center center;
+        url("/images/background/Ubicom_IFR-keyart_blacklayer.jpg") no-repeat
+          center center;
       background-size: cover;
       background-position-y: 70px;
       height: 100vh;
