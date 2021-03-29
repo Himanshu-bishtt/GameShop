@@ -93,6 +93,13 @@ window.addEventListener("scroll", function () {
   }
 });
 
+window.addEventListener("click", function () {
+  let navbarLogo = document.querySelector(".logo");
+
+  if (window.scrollY > 600) {
+  }
+});
+
 // Scroll to TOP
 var btn = $(".scrollup");
 $(window).scroll(function () {
