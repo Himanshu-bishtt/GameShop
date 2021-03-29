@@ -548,4 +548,23 @@
       font-size: 0.7rem;
     }
   }
+
+  // contact-us page
+  .Contactcontainer {
+    padding: 10px 50px;
+  }
+  .contact-box {
+    .contactLeft {
+      display: none;
+    }
+
+    .contactRight {
+      padding: 40px 22px;
+    }
+
+    .contactHeading {
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+    }
+  }
 }
