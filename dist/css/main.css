@@ -706,7 +706,7 @@ textarea {
     font-size: 0.7rem; } }
 
 @media (max-width: 500px) {
-  .mainHeading {
+  .primaryHeading {
     font-size: 1.3rem; }
   .btn-1 {
     font-size: 0.7rem;
