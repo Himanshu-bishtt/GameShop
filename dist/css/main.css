@@ -44,10 +44,13 @@ ul {
   overflow: hidden;
   text-align: center; }
 
-.mainHeading {
-  text-align: center;
+.primaryHeading {
   font-weight: bold;
   font-size: 2rem; }
+
+.secondaryHeading {
+  font-size: 1.2rem;
+  font-weight: bold; }
 
 .btn-1 {
   color: #fff;
@@ -223,52 +226,67 @@ ul {
   .section-a li .bannerBtn a {
     margin: 0rem 0.8rem; }
 
-.section-b .box {
+.section-b h1 {
+  margin-left: 2rem; }
+  .section-b h1 span {
+    font-size: 0.5rem; }
+
+.section-b .offers {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem; }
+  .section-b .offers img {
+    height: 150px;
+    border-radius: 20px; }
+
+.section-c .box {
   margin: 1rem 1rem 0.5rem 1rem; }
-  .section-b .box .image img {
+  .section-c .box .image img {
     height: 300px;
     width: 200px;
     transition: 0.5s all ease-in-out;
     border-radius: 15px; }
-    .section-b .box .image img:hover {
+    .section-c .box .image img:hover {
       box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
       transform: scale(1.01); }
-  .section-b .box .title h3 {
+  .section-c .box .title h3 {
     padding: 0.8rem 0rem;
     font-size: 0.7rem; }
-  .section-b .box .avilableOn .platform {
+  .section-c .box .avilableOn .platform {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 0.8rem; }
-    .section-b .box .avilableOn .platform p {
+    .section-c .box .avilableOn .platform p {
       font-size: 0.6rem;
       margin-right: 0.3rem; }
-    .section-b .box .avilableOn .platform img {
+    .section-c .box .avilableOn .platform img {
       margin: 0rem 0.1rem;
       height: 20px;
       width: 20px; }
-  .section-b .box .gameRating {
+  .section-c .box .gameRating {
     display: flex;
     align-items: center;
     justify-content: center; }
-    .section-b .box .gameRating p {
+    .section-c .box .gameRating p {
       font-size: 0.6rem;
       margin-right: 0.5rem; }
-    .section-b .box .gameRating img {
+    .section-c .box .gameRating img {
       height: 20px;
       width: 15px; }
 
-.section-b .viewMoreGames {
+.section-c .viewMoreGames {
   margin-top: 1rem; }
-  .section-b .viewMoreGames .left {
+  .section-c .viewMoreGames .left {
     position: absolute;
     background: #c13584;
     height: 2px;
     width: 22rem;
     left: 6%;
     margin-top: 0.5rem; }
-  .section-b .viewMoreGames .right {
+  .section-c .viewMoreGames .right {
     position: absolute;
     background: #c13584;
     height: 2px;
@@ -276,150 +294,150 @@ ul {
     right: 6%;
     margin-top: 0.5rem; }
 
-.section-c .categories {
+.section-d .categories {
   margin: 1rem 0rem;
   padding-top: 2rem; }
-  .section-c .categories img {
+  .section-d .categories img {
     height: 140px;
     width: 140px;
     margin: 0rem 1rem;
     transition: 0.5s all ease-in-out;
     border-radius: 50%; }
-    .section-c .categories img:hover {
+    .section-d .categories img:hover {
       box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
       transform: scale(1.03); }
-  .section-c .categories h3 {
+  .section-d .categories h3 {
     padding: 0.8rem 0rem;
     font-size: 0.7rem;
     color: #000; }
 
-.section-d {
+.section-e {
   background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.753)), url("/images/background/1624-min-compressed.jpg") no-repeat center center/cover;
   position: relative;
   color: #fff; }
-  .section-d h2 {
+  .section-e h2 {
     text-shadow: 0 2px 10px #000;
     color: #fff; }
-  .section-d #mobileOnly {
+  .section-e #mobileOnly {
     display: none; }
-  .section-d .testimonials {
+  .section-e .testimonials {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.5rem; }
-    .section-d .testimonials p {
+    .section-e .testimonials p {
       font-size: 0.8rem;
       line-height: 1.5;
       text-shadow: 0 2px 10px #000; }
-      .section-d .testimonials p::before {
+      .section-e .testimonials p::before {
         content: "\201C";
         display: block;
         margin-bottom: -4rem;
         font-size: 5rem;
         margin-right: 12rem; }
-    .section-d .testimonials ul {
+    .section-e .testimonials ul {
       margin-top: 1rem;
       margin-bottom: 1rem;
       display: flex;
       align-items: center; }
-      .section-d .testimonials ul li {
+      .section-e .testimonials ul li {
         font-size: 0.8rem;
         text-shadow: 0 2px 10px #000; }
-      .section-d .testimonials ul li img {
+      .section-e .testimonials ul li img {
         height: 30px;
         width: 30px;
         border-radius: 50%;
         margin-right: 0.8rem;
         margin-left: 2rem; }
 
-.section-e .newsGrid {
+.section-f .newsGrid {
   margin-top: 1rem; }
-  .section-e .newsGrid .primaryGrid {
+  .section-f .newsGrid .primaryGrid {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 1rem; }
-    .section-e .newsGrid .primaryGrid .primaryBanner {
+    .section-f .newsGrid .primaryGrid .primaryBanner {
       margin-left: 1rem; }
-      .section-e .newsGrid .primaryGrid .primaryBanner img {
+      .section-f .newsGrid .primaryGrid .primaryBanner img {
         height: 380px;
         border-radius: 30px;
         transition: 0.5s all ease-in-out; }
-        .section-e .newsGrid .primaryGrid .primaryBanner img:hover {
+        .section-f .newsGrid .primaryGrid .primaryBanner img:hover {
           box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
           transform: scale(1.01); }
-    .section-e .newsGrid .primaryGrid .innerGrid {
+    .section-f .newsGrid .primaryGrid .innerGrid {
       align-items: center;
       justify-content: center; }
-      .section-e .newsGrid .primaryGrid .innerGrid p {
+      .section-f .newsGrid .primaryGrid .innerGrid p {
         font-size: 0.7rem;
         text-decoration: underline;
         margin: 0.5rem 0rem; }
-      .section-e .newsGrid .primaryGrid .innerGrid h3 {
+      .section-f .newsGrid .primaryGrid .innerGrid h3 {
         font-size: 0.8rem;
         margin: 0rem 0.6rem; }
-      .section-e .newsGrid .primaryGrid .innerGrid .secondaryBanner1 {
+      .section-f .newsGrid .primaryGrid .innerGrid .secondaryBanner1 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 0.8rem;
         margin-right: 2rem; }
-        .section-e .newsGrid .primaryGrid .innerGrid .secondaryBanner1 img {
+        .section-f .newsGrid .primaryGrid .innerGrid .secondaryBanner1 img {
           height: 180px;
           width: 270px;
           border-radius: 10px;
           transition: 0.5s all ease-in-out; }
-          .section-e .newsGrid .primaryGrid .innerGrid .secondaryBanner1 img:hover {
+          .section-f .newsGrid .primaryGrid .innerGrid .secondaryBanner1 img:hover {
             box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
             transform: scale(1.01); }
-      .section-e .newsGrid .primaryGrid .innerGrid .secondaryBanner2 {
+      .section-f .newsGrid .primaryGrid .innerGrid .secondaryBanner2 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-right: 2rem; }
-        .section-e .newsGrid .primaryGrid .innerGrid .secondaryBanner2 img {
+        .section-f .newsGrid .primaryGrid .innerGrid .secondaryBanner2 img {
           height: 180px;
           width: 270px;
           border-radius: 10px;
           transition: 0.5s all ease-in-out; }
-          .section-e .newsGrid .primaryGrid .innerGrid .secondaryBanner2 img:hover {
+          .section-f .newsGrid .primaryGrid .innerGrid .secondaryBanner2 img:hover {
             box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
             transform: scale(1.01); }
-  .section-e .newsGrid .secondaryGrid {
+  .section-f .newsGrid .secondaryGrid {
     margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     grid-gap: 2rem; }
-    .section-e .newsGrid .secondaryGrid .grid {
+    .section-f .newsGrid .secondaryGrid .grid {
       display: flex;
       justify-content: center;
       align-items: center; }
-    .section-e .newsGrid .secondaryGrid img {
+    .section-f .newsGrid .secondaryGrid img {
       height: 200px;
       width: 300px;
       border-radius: 10px;
       transition: 0.5s all ease-in-out; }
-      .section-e .newsGrid .secondaryGrid img:hover {
+      .section-f .newsGrid .secondaryGrid img:hover {
         box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
         transform: scale(1.01); }
-    .section-e .newsGrid .secondaryGrid p {
+    .section-f .newsGrid .secondaryGrid p {
       font-size: 0.7rem;
       text-decoration: underline;
       margin: 0.5rem 0rem; }
-    .section-e .newsGrid .secondaryGrid h3 {
+    .section-f .newsGrid .secondaryGrid h3 {
       font-size: 0.8rem;
       margin: 0rem 0.6rem;
       font-weight: bold; }
 
-.section-f .inputArea {
+.section-g .inputArea {
   padding: 1rem 0rem; }
-  .section-f .inputArea input {
+  .section-g .inputArea input {
     padding: 1rem 10rem;
     border-radius: 30px;
     border: none;
     font-size: 1.1rem; }
-    .section-f .inputArea input:hover {
+    .section-g .inputArea input:hover {
       background-color: rgba(134, 133, 133, 0.1); }
-    .section-f .inputArea input:focus {
+    .section-g .inputArea input:focus {
       background-color: #fff;
       outline: none; }
 
@@ -552,7 +570,7 @@ footer {
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s, bottom 0.5s;
   opacity: 0;
   visibility: hidden;
-  z-index: 10;
+  z-index: 100;
   cursor: pointer; }
 
 .scrollup.show {
@@ -658,33 +676,33 @@ textarea {
   left: 0; }
 
 @media (max-width: 1100px) {
-  .section-b .box .image img {
+  .section-c .box .image img {
     height: 270px;
     width: 180px; }
-  .section-b .viewMoreGames .left {
+  .section-c .viewMoreGames .left {
     height: 2px;
     width: 18rem;
     left: 3%; }
-  .section-b .viewMoreGames .right {
+  .section-c .viewMoreGames .right {
     height: 2px;
     width: 18rem;
     right: 3%; }
-  .section-c .categories img {
+  .section-d .categories img {
     height: 130px;
     width: 130px; }
-  .section-d .testimonials p {
+  .section-f .testimonials p {
     font-size: 0.75rem; }
-    .section-d .testimonials p::before {
+    .section-f .testimonials p::before {
       margin-bottom: -3rem;
       font-size: 4rem; }
-  .section-e .newsGrid .primaryGrid .primaryBanner img {
+  .section-f .newsGrid .primaryGrid .primaryBanner img {
     height: 380px;
     width: 480px; }
-  .section-e .newsGrid .innerGrid {
+  .section-f .newsGrid .innerGrid {
     margin-right: 2rem; }
-    .section-e .newsGrid .innerGrid h3 {
+    .section-f .newsGrid .innerGrid h3 {
       font-size: 0.7rem !important; }
-  .section-e .newsGrid .secondaryGrid h3 {
+  .section-f .newsGrid .secondaryGrid h3 {
     font-size: 0.7rem; } }
 
 @media (max-width: 500px) {
@@ -903,55 +921,60 @@ textarea {
     font-size: 0.7rem; }
   .section-a li .bannerBtn a {
     margin: 0rem 0.3rem; }
-  .section-b .box {
+  .section-b .offers {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 1rem 1.4rem; }
+    .section-b .offers img {
+      height: 100px; }
+  .section-c .box {
     margin: 1rem 0.6rem 0rem 0.6rem; }
-    .section-b .box .image img {
+    .section-c .box .image img {
       height: 220px;
       width: 150px; }
-    .section-b .box .title h3 {
+    .section-c .box .title h3 {
       font-size: 0.6rem; }
-    .section-b .box .avilableOn .platform img {
+    .section-c .box .avilableOn .platform img {
       height: 15px;
       width: 15px; }
-    .section-b .box .gameRating img {
+    .section-c .box .gameRating img {
       height: 15px;
       width: 10px; }
-  .section-b .viewMoreGames .left,
-  .section-b .viewMoreGames .right {
+  .section-c .viewMoreGames .left,
+  .section-c .viewMoreGames .right {
     width: 4.5rem; }
-  .section-c .categories {
+  .section-d .categories {
     padding-top: 1rem; }
-    .section-c .categories img {
+    .section-d .categories img {
       height: 100px;
       width: 100px;
       margin: 0rem 0.5rem; }
-    .section-c .categories h3 {
+    .section-d .categories h3 {
       font-size: 0.6rem; }
-  .section-d h2 {
+  .section-e h2 {
     font-size: 1.1rem; }
-  .section-d #desktopOnly {
+  .section-e #desktopOnly {
     display: none; }
-  .section-d #mobileOnly {
+  .section-e #mobileOnly {
     display: block; }
-  .section-d .testimonials {
+  .section-e .testimonials {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0rem; }
-    .section-d .testimonials .box {
+    .section-e .testimonials .box {
       margin-left: 1rem; }
-      .section-d .testimonials .box p {
+      .section-e .testimonials .box p {
         font-size: 0.6rem;
         margin: 0rem 1rem; }
-  .section-e {
-    display: none; }
   .section-f {
+    display: none; }
+  .section-g {
     padding: 1rem 0rem !important; }
-    .section-f h2 {
+    .section-g h2 {
       font-size: 1.1rem; }
-    .section-f p {
+    .section-g p {
       font-size: 0.7rem; }
-    .section-f .inputArea {
+    .section-g .inputArea {
       padding: 1rem 0rem; }
-      .section-f .inputArea input {
+      .section-g .inputArea input {
         padding: 1rem 1rem;
         margin-bottom: 1rem;
         font-size: 0.9rem; }

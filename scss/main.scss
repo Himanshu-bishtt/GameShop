@@ -1,4 +1,5 @@
 $main-color: #c13584;
+// $main-color: rgb(26, 123, 187);
 $dark-color: #333;
 $max-widht: 1250px;
 
@@ -60,24 +61,14 @@ ul {
   text-align: center;
 }
 
-.mainHeading {
-  text-align: center;
+.primaryHeading {
   font-weight: bold;
   font-size: 2rem;
-  // color: #000;
+}
 
-  // &::after {
-  //   content: "";
-  //   font-size: 1.2rem;
-  //   position: absolute;
-  //   display: block;
-  //   height: 3px;
-  //   width: 6rem;
-  //   background-color: $main-color;
-  //   left: 45%;
-  //   // top: 10%;
-  //   // margin-top: 0.8rem;
-  // }
+.secondaryHeading {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .btn {
@@ -365,8 +356,31 @@ ul {
       }
     }
   }
-  // exploreMoreGames
+
+  // offers sections
   &-b {
+    h1 {
+      margin-left: 2rem;
+      span {
+        font-size: 0.5rem;
+      }
+    }
+    .offers {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+
+      img {
+        height: 150px;
+        // width: 200px;
+        border-radius: 20px;
+      }
+    }
+  }
+  // exploreMoreGames
+  &-c {
     .box {
       margin: 1rem 1rem 0.5rem 1rem;
       .image {
@@ -445,15 +459,10 @@ ul {
   }
 
   // categories
-  &-c {
+  &-d {
     .categories {
       margin: 1rem 0rem;
       padding-top: 2rem;
-      // padding-bottom: 5rem;
-      // height: 300px;
-      // display: grid;
-      // grid-template-columns: repeat(6, 1fr);
-      // grid-gap: 0.7rem;
 
       img {
         height: 140px;
@@ -476,7 +485,7 @@ ul {
     }
   }
   // testimonials
-  &-d {
+  &-e {
     background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.753)),
       url("/images/background/1624-min-compressed.jpg") no-repeat center
         center/cover;
@@ -534,7 +543,7 @@ ul {
   }
 
   // latest news blog
-  &-e {
+  &-f {
     .newsGrid {
       margin-top: 1rem;
       .primaryGrid {
@@ -649,7 +658,7 @@ ul {
     }
   }
 
-  &-f {
+  &-g {
     .inputArea {
       padding: 1rem 0rem;
       input {
@@ -860,7 +869,7 @@ footer {
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s, bottom 0.5s;
   opacity: 0;
   visibility: hidden;
-  z-index: 10;
+  z-index: 100;
   cursor: pointer;
   // box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
 }
