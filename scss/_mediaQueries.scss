@@ -91,7 +91,7 @@
       font-size: 0.7rem;
       padding: 0.6rem 1.5rem;
       background: $main-color;
-      border-radius: 20px;
+      border-radius: 10px;
       &:hover {
         opacity: 0.9;
       }
@@ -101,7 +101,7 @@
       font-size: 0.7rem;
       padding: 0.6rem 1.5rem;
       background: $main-color;
-      border-radius: 20px;
+      border-radius: 10px;
     }
   }
 
@@ -392,11 +392,18 @@
           background-size: cover;
           background-position-y: 50px;
         }
+
+        &-c {
+          height: 65vh;
+          background-size: cover;
+          background-position-y: 50px;
+          background-position-x: -450px;
+        }
       }
       li {
         .bannerTitle {
           h2 {
-            font-size: 2rem;
+            font-size: 1.2rem;
           }
 
           h3 {
