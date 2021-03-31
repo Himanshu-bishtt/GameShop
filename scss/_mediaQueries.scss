@@ -414,8 +414,9 @@
     // offers section
     &-b {
       .offers {
-        grid-template-columns: repeat(1, 1fr);
-        margin: 1rem 1.4rem;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem 1.2rem;
+        grid-gap: 0.6rem;
 
         img {
           height: 100px;
