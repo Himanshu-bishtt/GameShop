@@ -941,10 +941,11 @@ textarea {
     margin: 0rem 0.3rem; }
   .section-b .offers {
     grid-template-columns: repeat(2, 1fr);
-    margin: 1rem 1.2rem;
+    margin: 1rem 0.9rem;
     grid-gap: 0.6rem; }
     .section-b .offers img {
-      height: 100px; }
+      height: 80px;
+      border-radius: 10px; }
   .section-c .box {
     margin: 1rem 0.6rem 0rem 0.6rem; }
     .section-c .box .image img {
