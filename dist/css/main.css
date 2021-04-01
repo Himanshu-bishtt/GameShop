@@ -441,6 +441,25 @@ ul {
       margin: 0rem 0.6rem;
       font-weight: bold; }
 
+.section-f .viewAllBlog a {
+  float: right; }
+  .section-f .viewAllBlog a:hover {
+    color: #c13584; }
+
+.section-f .viewAllBlog .left {
+  position: absolute;
+  background: #333;
+  height: 2px;
+  width: 5rem;
+  left: 82%;
+  margin-top: 0.8rem;
+  display: none; }
+
+.section-f .viewAllBlog .right {
+  position: absolute;
+  right: 1.8%;
+  margin-top: 0.1rem; }
+
 .section-g .inputArea {
   padding: 1rem 0rem; }
   .section-g .inputArea input {
@@ -680,13 +699,49 @@ textarea {
   .left {
     height: 200px; } }
 
-.latestNewsSection-a .videoWrapper video {
-  object-fit: cover;
-  width: 98.9vw;
-  height: 60vh;
-  top: 0;
-  left: 0;
-  margin-top: 3rem; }
+.latestNewsSection-a {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  max-height: 70vh; }
+  .latestNewsSection-a .videoWrapper::before {
+    content: "";
+    top: 54px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.55); }
+
+.latestNewsSection-b .latestNews {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin: 1.5rem 1rem 3rem 1rem; }
+  .latestNewsSection-b .latestNews .box {
+    text-align: left;
+    background-color: #f3f3f3; }
+    .latestNewsSection-b .latestNews .box img {
+      height: 300px;
+      width: 550px;
+      border-radius: 10px;
+      transition: 0.5s all ease-in-out; }
+      .latestNewsSection-b .latestNews .box img:hover {
+        box-shadow: 0px 1px 8px rgba(68, 68, 68, 0.6);
+        transform: scale(1.01); }
+    .latestNewsSection-b .latestNews .box h4 {
+      padding: 0.7rem 0rem;
+      font-size: 0.8rem; }
+    .latestNewsSection-b .latestNews .box h3 {
+      padding: 0rem 0rem 0.7rem 0rem;
+      transition: 0.3s all ease-in-out; }
+      .latestNewsSection-b .latestNews .box h3:hover {
+        text-decoration: underline;
+        color: #c13584; }
+    .latestNewsSection-b .latestNews .box p {
+      font-size: 0.8rem; }
 
 @media (max-width: 1100px) {
   .section-c .box .image img {
@@ -1023,4 +1078,11 @@ textarea {
     padding: 40px 22px; }
   .contact-box .contactHeading {
     margin-bottom: 1.5rem;
-    font-size: 1.3rem; } }
+    font-size: 1.3rem; }
+  .latestNewsSection-b .latestNews {
+    grid-template-columns: repeat(1, 1fr); }
+    .latestNewsSection-b .latestNews .box img {
+      height: 160px;
+      width: 330px; }
+    .latestNewsSection-b .latestNews .box h4 {
+      font-size: 0.7rem; } }

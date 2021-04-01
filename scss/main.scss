@@ -682,6 +682,31 @@ ul {
         }
       }
     }
+
+    .viewAllBlog {
+      a {
+        float: right;
+
+        &:hover {
+          color: $main-color;
+          // font-weight: bold;
+        }
+      }
+      .left {
+        position: absolute;
+        background: $dark-color;
+        height: 2px;
+        width: 5rem;
+        left: 82%;
+        margin-top: 0.8rem;
+        display: none;
+      }
+      .right {
+        position: absolute;
+        right: 1.8%;
+        margin-top: 0.1rem;
+      }
+    }
   }
 
   &-g {
