@@ -395,13 +395,13 @@ ul {
       margin-top: 1rem;
       margin-bottom: 1rem;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 0.7rem;
 
       img {
-        height: 150px;
+        height: 100px;
         // width: 200px;
-        border-radius: 20px;
+        border-radius: 10px;
       }
     }
   }

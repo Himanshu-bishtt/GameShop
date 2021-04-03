@@ -114,7 +114,7 @@ $(document).ready(function () {
     loop: true,
     auto: true,
     pauseOnHover: true,
-    pause: 6000,
+    pause: 7000,
     pager: false,
     // controls: true,
     mode: "fade",

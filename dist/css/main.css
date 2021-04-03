@@ -248,11 +248,11 @@ ul {
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem; }
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.7rem; }
   .section-b .offers img {
-    height: 150px;
-    border-radius: 20px; }
+    height: 100px;
+    border-radius: 10px; }
 
 .section-c .box {
   margin: 1rem 1rem 0.5rem 1rem; }
@@ -703,7 +703,7 @@ textarea {
   text-align: center;
   position: relative;
   overflow: hidden;
-  max-height: 70vh; }
+  max-height: 75vh; }
   .latestNewsSection-a .videoWrapper::before {
     content: "";
     top: 54px;
