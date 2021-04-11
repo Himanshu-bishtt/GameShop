@@ -94,10 +94,13 @@
 				<div class="contactLeft"></div>
 				<div class="contactRight">
 					<h2 class="contactHeading">Contact Us</h2>
-					<input type="text" class="field" placeholder="Your Name">
-					<input type="text" class="field" placeholder="Your Email">
-					<input type="text" class="field" placeholder="Phone">
-					<textarea placeholder="Message" class="field"></textarea>
+          <form action="" name="contact" method="POST" data-netlify="true">
+            <input type="text" class="field" placeholder="Your Name">
+            <input type="text" class="field" placeholder="Your Email">
+            <input type="text" class="field" placeholder="Phone">
+            <textarea placeholder="Message" class="field"></textarea>
+            <div data-netlify-recaptcha="true"></div>
+          </form>
           <button class="btn" type="submit">Send</button>
 				</div>
 			</div>
