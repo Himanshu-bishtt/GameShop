@@ -713,7 +713,9 @@ ul {
     .inputArea {
       padding: 1rem 0rem;
       input {
-        padding: 1rem 10rem;
+        padding: 1rem 1rem 1rem 3rem;
+        width: 60%;
+
         border-radius: 30px;
         // border: 0.1px solid #999;
         border: none;

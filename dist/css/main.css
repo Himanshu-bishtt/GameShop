@@ -463,7 +463,8 @@ ul {
 .section-g .inputArea {
   padding: 1rem 0rem; }
   .section-g .inputArea input {
-    padding: 1rem 10rem;
+    padding: 1rem 1rem 1rem 3rem;
+    width: 60%;
     border-radius: 30px;
     border: none;
     font-size: 1.1rem; }
@@ -1050,9 +1051,10 @@ textarea {
     .section-g .inputArea {
       padding: 1rem 0rem; }
       .section-g .inputArea input {
-        padding: 1rem 1rem;
+        padding: 1rem 1rem 1rem 2rem;
+        width: 88%;
         margin-bottom: 1rem;
-        font-size: 0.9rem; }
+        font-size: 0.8rem; }
   footer {
     text-align: center; }
     footer .contact {
