@@ -95,11 +95,11 @@
 				<div class="contactRight">
 					<h2 class="contactHeading">Contact Us</h2>
           <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-            <input name="username" id="email" type="text" class="field" placeholder="Your Name">
+            <input name="username" id="username" type="text" class="field" placeholder="Your Name">
             <input name="email" id="email" type="text" class="field" placeholder="Your Email">
             <input name="phone" id="phone" type="text" class="field" placeholder="Phone">
             <textarea name="message" id="message" placeholder="Message" class="field"></textarea>
-            <div style="margin-left: 3rem">
+            <div class="recaptcha">
               <div data-netlify-recaptcha="true"></div>
             </div>
             <button type="submit" class="btn-1" style="border: none; cursor: pointer; margin-top: .5rem">Submit</button>
