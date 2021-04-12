@@ -634,7 +634,7 @@ footer {
 
 .contact-box {
   max-width: 990px;
-  max-height: 520px;
+  max-height: 574px;
   border-radius: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -647,10 +647,10 @@ footer {
 .contactLeft {
   background: url("/images/background/contactUsBanner.jpg") no-repeat center;
   background-size: cover;
-  height: 520px;
+  height: 521px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  margin-bottom: 1rem; }
+  margin-bottom: 4rem; }
 
 .contactRight {
   padding: 40px 40px; }
