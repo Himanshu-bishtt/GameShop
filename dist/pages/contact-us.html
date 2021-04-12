@@ -94,20 +94,15 @@
 				<div class="contactLeft"></div>
 				<div class="contactRight">
 					<h2 class="contactHeading">Contact Us</h2>
-          <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <input type="text" class="field" placeholder="Your Name">
             <input type="text" class="field" placeholder="Your Email">
             <input type="text" class="field" placeholder="Phone">
             <textarea placeholder="Message" class="field"></textarea>
-            <div data-netlify-recaptcha="true"></div>
-
-            <!-- <div class="g-recaptcha" data-sitekey="6Le_KqUaAAAAAFW0_Di2xXhgGAUFnvNo8LhCi4OO"></div>
-            <button class="g-recaptcha btn-1" style="border: none; cursor: pointer" 
-              data-sitekey="6Le_KqUaAAAAAFW0_Di2xXhgGAUFnvNo8LhCi4OO"
-              g-recaptcha-response="true"
-              method="POST" 
-              data-callback='onSubmit' 
-              data-action='submit'>Submit</button> -->
+            <div>
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+            <button type="submit" class="btn-1" style="border: none; cursor: pointer">Submit</button>
           </form>
 				</div>
 			</div>
