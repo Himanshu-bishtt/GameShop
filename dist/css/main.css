@@ -759,7 +759,7 @@ textarea {
       font-size: 0.8rem; }
 
 main .about-section-a {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/dist/images/background/about-us2.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/images/background/about-us2.jpg") no-repeat center center;
   background-size: cover;
   height: 70vh; }
 
@@ -778,12 +778,17 @@ main .about-section-c .teamContent {
 
 @media (max-width: 500px) {
   main .about-section-b p {
-    padding: 0rem 2rem; }
+    padding: 0rem 2rem;
+    font-size: 0.8rem; }
   main .about-section-c .teamContent {
     grid-template-columns: repeat(1, 1fr); }
     main .about-section-c .teamContent .image img {
       height: 150px;
-      width: 150px; } }
+      width: 150px; }
+    main .about-section-c .teamContent .info h3 {
+      font-size: 0.9rem; }
+    main .about-section-c .teamContent .info p {
+      font-size: 0.8rem !important; } }
 
 @media (max-width: 1100px) {
   .section-c .box .image img {

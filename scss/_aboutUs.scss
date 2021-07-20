@@ -2,7 +2,7 @@ main {
   .about-section {
     &-a {
       background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("/dist/images/background/about-us2.jpg") no-repeat center center;
+        url("/images/background/about-us2.jpg") no-repeat center center;
       background-size: cover;
       height: 70vh;
       // background-position-y: 10px;
@@ -41,6 +41,7 @@ main {
       &-b {
         p {
           padding: 0rem 2rem;
+          font-size: 0.8rem;
         }
       }
       &-c {
@@ -55,7 +56,12 @@ main {
           }
 
           .info {
-            // padding: 1rem;
+            h3 {
+              font-size: 0.9rem;
+            }
+            p {
+              font-size: 0.8rem !important;
+            }
           }
         }
       }
