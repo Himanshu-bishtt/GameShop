@@ -22,6 +22,17 @@ body {
   font-weight: 300;
   text-rendering: optimizeLegibility;
 }
+
+::selection {
+  background-color: $main-color;
+  color: #fff;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  background-color: $main-color;
+  color: #fff;
+}
+
 h1,
 h2,
 h3,
@@ -95,6 +106,10 @@ ul {
 // Padding
 .py-1 {
   padding: 1rem 0rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
 }
 
 // Background
@@ -936,10 +951,12 @@ footer {
 
 // --------------------- Contact Us ---------------------
 @import "_contactUs";
-// --------------------- Contact Us ---------------------
 
+// --------------------- Blog -------------------------
 @import "_latestNews";
+
+// ------------------- About us ------------------------
+@import "_aboutUs";
 
 // --------------------- Media Queries ------------------
 @import "_mediaQueries";
-// --------------------- Media Queries ------------------

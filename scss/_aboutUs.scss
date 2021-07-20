@@ -1,0 +1,64 @@
+main {
+  .about-section {
+    &-a {
+      background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("/dist/images/background/about-us2.jpg") no-repeat center center;
+      background-size: cover;
+      height: 70vh;
+      // background-position-y: 10px;
+    }
+
+    &-b {
+      p {
+        padding: 0rem 7rem;
+      }
+    }
+
+    &-c {
+      .teamContent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        // grid-gap: 1rem;
+
+        .image {
+          img {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+          }
+        }
+        .info {
+          padding: 1rem 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    .about-section {
+      &-b {
+        p {
+          padding: 0rem 2rem;
+        }
+      }
+      &-c {
+        .teamContent {
+          grid-template-columns: repeat(1, 1fr);
+
+          .image {
+            img {
+              height: 150px;
+              width: 150px;
+            }
+          }
+
+          .info {
+            // padding: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

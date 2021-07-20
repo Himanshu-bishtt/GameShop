@@ -12,6 +12,15 @@ body {
   font-weight: 300;
   text-rendering: optimizeLegibility; }
 
+::selection {
+  background-color: #c13584;
+  color: #fff; }
+
+::-moz-selection {
+  /* Code for Firefox */
+  background-color: #c13584;
+  color: #fff; }
+
 h1,
 h2,
 h3,
@@ -70,6 +79,9 @@ ul {
 
 .py-1 {
   padding: 1rem 0rem; }
+
+.py-2 {
+  padding: 2rem 0; }
 
 .bg-1 {
   background: #f2f2f2; }
@@ -745,6 +757,33 @@ textarea {
         color: #c13584; }
     .latestNewsSection-b .latestNews .box p {
       font-size: 0.8rem; }
+
+main .about-section-a {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/dist/images/background/about-us2.jpg") no-repeat center center;
+  background-size: cover;
+  height: 70vh; }
+
+main .about-section-b p {
+  padding: 0rem 7rem; }
+
+main .about-section-c .teamContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+  main .about-section-c .teamContent .image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%; }
+  main .about-section-c .teamContent .info {
+    padding: 1rem 3rem; }
+
+@media (max-width: 500px) {
+  main .about-section-b p {
+    padding: 0rem 2rem; }
+  main .about-section-c .teamContent {
+    grid-template-columns: repeat(1, 1fr); }
+    main .about-section-c .teamContent .image img {
+      height: 150px;
+      width: 150px; } }
 
 @media (max-width: 1100px) {
   .section-c .box .image img {
